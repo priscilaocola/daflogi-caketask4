@@ -228,14 +228,14 @@ footer h3 {
   margin: 3rem;
 }
 .cafe1 {
-  width: 30rem;
+  width: 25rem;
   height: 20rem;
   margin-left: 2rem;
   margin-top: 2rem;
   border: 5px solid rgb(160, 61, 4);
 }
 .cafe2 {
-  width: 30rem;
+  width: 25rem;
   height: 20rem;
   margin-left: 2rem;
   margin-top: 2rem;
@@ -243,22 +243,23 @@ footer h3 {
 }
 .texto {
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  align-items: center;
   flex-direction: column;
   padding: 2rem;
-  width: 50rem;
-  height: 50rem;
-  margin-left: 10rem;
+  width: 50%;
+  height:45rem;
+  margin-left: rem;
 }
 .p1 {
   color: rgb(8, 5, 5);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 15px;
   background: rgb(243, 162, 11);
-  padding: 3rem;
-  margin-right: 12rem;
-  width: 24rem;
+  padding: 2rem;
+  margin-right: 10rem;
+  width: 25rem;
   border: 5px solid rgb(160, 61, 4);
 }
 .text2 {
