@@ -25,19 +25,19 @@ nav a {
   margin: 0.5rem;
   padding: 5px;
   font-family: "Lucida Grande", Verdana, sans-serif;
-  background: linear-gradient(90deg, #c93305 10%, #fadec4 100%);
+  background: linear-gradient(90deg, #f7ece8 10%, #ffffff 100%);
   border-radius: 5px;
 }
 nav>div>a[href="#"] {
   background-color: #aef5e3;
-  color: #4b0000;
+  color: #f80101;
 }
 nav>div>a:hover {
   background-color: #da9350;
   color: #051675;
 }
 .logo>img {
-  width: 4rem;
+  width: 3.5rem;
 }
 .logo{
   border-radius: 100%;
@@ -201,11 +201,8 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 10vh;
-  background-color: #F4C79A;
-  margin-top: 1.9rem;
-  border-top: 1px solid #DA6C70;
-
+ height:10vh ;
+margin-top: 1rem;
 }   
 footer h3 {
   color: rgb(8, 5, 5);
@@ -213,7 +210,7 @@ footer h3 {
   font-size: 15px;
   border-radius: 5px;
   background: rgb(245, 198, 112);
-  width: 15rem;
+  width: 12rem;
   height: 4rem;
   margin: 2rem;
   border: 3px solid rgb(184, 75, 3);
@@ -334,7 +331,7 @@ tr:nth-child(odd){
   margin-top: 2rem;
 }
 iframe {
-  height: 15rem;
+  height: 12rem;
   width: 50rem;
   margin: 1rem 0;
   border: none;
