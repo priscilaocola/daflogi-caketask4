@@ -1,0 +1,562 @@
+* :not(ol, ul, li){
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #fab86d 10%, #f39200 100%);
+  width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: #f3a847;
+    min-height: 3rem;
+}
+nav a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid black;
+  margin: 0.5rem;
+  padding: 5px;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  background: linear-gradient(90deg, #c93305 10%, #fadec4 100%);
+  border-radius: 5px;
+}
+nav>div>a[href="#"] {
+  background-color: #aef5e3;
+  color: #4b0000;
+}
+nav>div>a:hover {
+  background-color: #da9350;
+  color: #051675;
+}
+.logo>img {
+  width: 4rem;
+}
+.logo{
+  border-radius: 100%;
+  border: 2px solid black;
+}
+h1 {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 2rem;
+}
+ h2 {
+  color: rgb(8, 5, 5);
+  text-decoration: none;
+  font-size: 25px;
+  margin: 8px;
+  text-align: center;
+}
+main {
+  min-height: 60vh;
+}
+.caja1 {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-between;
+  margin-bottom: 1rem;
+}
+.im2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img2 {
+  width: 50rem;
+  height: 25rem;
+  border: 4px solid rgb(160, 61, 4);
+  margin: 2rem;
+}
+.text1 {
+  width: 20rem;
+  height: 14rem;
+  color: rgb(8, 5, 5);
+  font-size: 18px;
+  padding: 1rem;
+  border: 3px solid rgb(204, 58, 0);
+  border-radius: 5px;
+  background: rgba(236, 153, 29, 0.829);
+}
+
+.img3 {
+  width: 25rem;
+  height: 15rem;
+  margin-left: 25rem;
+  margin-right: 3rem;
+  border: 3px solid rgb(160, 61, 4);
+}
+
+.pop3 {
+  display: flex;
+  align-self: center;
+  margin-left: 2rem;
+
+}
+
+.pastel {
+  width: 25rem;
+  height: 15rem;
+  margin: 2rem;
+  border: 3px solid rgb(160, 61, 4);
+}
+
+.cakes {
+  width: 25rem;
+  height: 15rem;
+  margin: 2rem;
+  border: 3px solid rgb(160, 61, 4);
+}
+.personas {
+  width: 25rem;
+  height: 15rem;
+  margin: 2rem;
+  border: 3px solid rgb(160, 61, 4);
+}
+.textos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12rem;
+  padding: 1rem;
+  width: 20rem;
+}
+.texto3 {
+  color: rgb(8, 5, 5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgb(228, 188, 11);
+  padding: 1rem;
+  height: 10rem;
+  width: 20rem;
+  margin-top: 2rem;
+  border: solid rgb(160, 61, 4);
+}
+.texto4 {
+  color: rgb(8, 5, 5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgb(228, 188, 11);
+  margin-top: 8rem;
+  width: 20rem;
+  height: 10rem;
+  padding: 1rem;
+  margin-right: 10rem;
+  border: solid rgb(160, 61, 4);
+}
+.texto5 {
+  color: rgb(8, 5, 5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgb(228, 188, 11);
+  padding: 2rem;
+  width: 20rem;
+  height: 13rem;
+  margin-top: 10rem;
+  border: solid rgb(160, 61, 4);
+}
+.img4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 8rem;
+  padding: 3rem;
+}
+.ice {
+  width: 35rem;
+  right: 20rem;
+  border: 4px solid rgb(160, 61, 4);
+}
+.contacto {
+  color: rgb(2, 0, 0);
+  font-size: 20px;
+  background: rgba(248, 168, 19, 0.932);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  width: 20rem;
+  height: 13rem;
+}
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+  margin: .3rem 8rem;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 10vh;
+  background-color: #F4C79A;
+  margin-top: 1.9rem;
+  border-top: 1px solid #DA6C70;
+
+}   
+footer h3 {
+  color: rgb(8, 5, 5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  border-radius: 5px;
+  background: rgb(245, 198, 112);
+  width: 15rem;
+  height: 4rem;
+  margin: 2rem;
+  border: 3px solid rgb(184, 75, 3);
+}
+.cafe {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+.cafe1 {
+  width: 30rem;
+  height: 20rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 5px solid rgb(160, 61, 4);
+}
+.cafe2 {
+  width: 30rem;
+  height: 20rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 5px solid rgb(160, 61, 4);
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 50rem;
+  height: 50rem;
+  margin-left: 10rem;
+}
+.p1 {
+  color: rgb(8, 5, 5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+  background: rgb(243, 162, 11);
+  padding: 3rem;
+  margin-right: 12rem;
+  width: 24rem;
+  border: 5px solid rgb(160, 61, 4);
+}
+.text2 {
+  margin-top: 5rem;
+}
+table{
+  align-self: center;
+  margin: 0;
+  width: 50%;
+  height: 70vh;
+  padding: 5rem;
+}
+table, tbody>tr>td, thead>tr>th {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  text-align: center;
+}
+caption {
+  caption-side: top;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(235, 91, 8);
+  font-size: 23px;
+  text-decoration: underline;
+}
+.info-container{
+  padding: .5rem 15rem;
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  align-content: space-around;
+}
+td {
+  padding: 2rem;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #bcdb08;
+}
+th {
+  padding: 2rem;;
+}
+table {
+  align-self: center;
+  margin: 0;
+  width: 50%;
+  height: 70vh;
+}
+tr {
+  padding: 2rem;;
+}
+tr:nth-child(odd){
+  background-color: #f37a00;
+}
+.cafe3 {
+  width: 20rem;
+  height: 15rem;
+}
+.cafe4 {
+  width: 20rem;
+  height: 15rem;
+  margin-top: 3rem;
+}
+#contenedorflex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+  justify-content: space-between;
+}
+.heart {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  flex-basis: 45%;
+}
+.formulario {
+  display: flex;
+  flex-basis: 45%;
+  margin-top: 2rem;
+}
+iframe {
+  height: 15rem;
+  width: 50rem;
+  margin: 1rem 0;
+  border: none;
+} 
+textarea {
+  resize: none;
+  align-items: center;
+  width: 12rem;
+  margin-left: 3rem;
+}
+label {
+  font-size: 16px;
+  background-color: rgb(236, 211, 187);
+}
+fieldset {
+  height: 34rem;
+  width: 28rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(177, 177, 177);
+}
+.form {
+  font-size: 23px;
+  text-align: center;
+}
+.send {
+  font-size: 16px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+
+  header{
+    position: static;
+}
+nav{
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 5rem;
+
+}
+nav>div{
+    display: flex;
+    flex-direction: column;
+    
+}
+nav>div>a{
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    top: 94%;
+}
+.im2{
+  flex-direction: column;
+  align-items: center;
+  padding: 0 .8rem;
+}
+.img2{
+  margin: 2rem 0;
+  width: 90%;
+  object-fit: contain;
+}
+.textos{
+  flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+.pop3{
+  width: 90%;
+        padding: 1rem 0;
+        object-fit: cover;
+}
+.caja1{
+  margin: 2rem 0;
+  width: 90%;
+  object-fit: contain;
+}
+.img4{
+  flex-direction: column;
+        margin: .3rem 0;
+        align-items: center;
+    }
+table{
+  width: 90%;
+        height: 50%;
+    }
+    .cafe{
+      flex-direction: column;
+        align-items: center;
+    }
+    .cafe1{
+      width: 90%;
+      margin-bottom: 1.5rem;
+    }
+    .cafe2{
+      width: 100%;
+      object-fit: cover;
+    }
+    .p1{
+      width: 90%;
+      padding: 1.5rem;
+  }
+  ol>li{
+    padding: .5rem 0;
+}
+#contenedorflex{
+  flex-direction: column;
+  align-items: center;
+}
+.heart{
+  width: 90%;
+        align-content: center;
+        margin: .5rem 0;
+}
+.formulario{
+  width: 90%;
+        margin-top: 1.8rem;
+}
+
+}
+@media (min-width: 768px) and (max-width:1024px) {
+  header{
+      position: static;
+  }
+  nav{
+      flex-direction: column;
+      position: relative;
+      padding: 2rem 0;
+      margin-bottom: 2rem;
+  }
+  nav>div{
+      display: flex;
+      flex-direction: column;
+  }
+  nav>div>a{
+      text-align: center;
+  }
+  .logo{
+      position: absolute;
+      top: 86%;
+    }
+    .im2{
+      flex-direction: column;
+        align-items: center;
+        padding: 0 .8rem;
+    }
+    .img2{
+      margin: 2rem 0;
+      width: 90%;
+      height: 15rem;
+      object-fit: cover;
+    }
+    .textos{
+      flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 2rem;
+    }
+    .pop3{
+      width: 90%;
+            padding: 1rem 0;
+            object-fit: cover;
+    }
+    .caja1{
+      height: 15rem;
+        width: 90%;
+        padding: 1rem 0;
+        object-fit: cover;
+    }
+    .img4{
+      flex-direction: column;
+            margin: .3rem 0;
+            align-items: center;
+        }
+    table{
+      width: 90%;
+            height: 50%;
+        }
+        .cafe{
+          flex-direction: column;
+            align-items: center;
+        }
+        .cafe1{
+          width: 90%;
+          margin-bottom: 1.5rem;
+        }
+        .cafe2{
+          width: 100%;
+          object-fit: cover;
+        }
+        .p1{
+          width: 90%;
+          padding: 1.5rem;
+        }
+        ol>li{
+          padding: .5rem 0;
+      }
+      #contenedorflex{
+        flex-direction: column;
+        align-items: center;
+      }
+      .heart{
+        width: 90%;
+              align-content: center;
+              margin: .5rem 0;
+      }
+      .formulario{
+        width: 90%;
+              margin-top: 1.8rem;
+            }
+          }
+          
+
+
+
+
+    
+
+
+
+
+
+  
